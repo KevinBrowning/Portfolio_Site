@@ -17,4 +17,15 @@ export default defineConfig({
       process.env.VITE_EMAILJS_USER_ID
     ),
   },
+  assetsInclude: [
+    "./src/assets/2402-VHS-Depot.mp4",
+    "./src/assets/1518576777676.jpg",
+    "./src/assets/Cert.jpg",
+    "./src/assets/ClubhouseAppPresentation.mp4",
+    "./src/assets/MeandSamiha.jpg",
+    "./src/assets/Meandtheboys.jpg",
+    "./src/assets/Mehiking.jpg",
+    "./src/assets/MeTandAndrew.JPG",
+    "./src/assets/Mewithmystar.jpg",
+  ],
 });
