@@ -1,10 +1,14 @@
 import { useState } from 'react'
+import HomePage from "./components/HomePage"
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-    <p>Kevin Browning</p>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+      </Routes>
     </>
   )
 }
