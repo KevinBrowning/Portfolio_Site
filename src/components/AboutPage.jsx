@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 const AboutPage = () => {
   const images = [
-    "../public/MeandSamiha.jpg",
-    "../public/Meandtheboys.jpg",
-    "../public/Mehiking.jpg",
-    "../public/Mewithmystar.jpg",
-    "../public/MeTandAndrew.JPG"
+    "/MeandSamiha.jpg",
+    "/Meandtheboys.jpg",
+    "/Mehiking.jpg",
+    "/Mewithmystar.jpg",
+    "/MeTandAndrew.JPG"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,7 +55,7 @@ const AboutPage = () => {
           <br />
           I have also completed certification in coding with The University of Michigan College of Engineering (I guess I have to say Go Blue too huh 😅) where I furthered my education by learning more comprehensive skills pertaining to full stack development. Getting to work alongside others during this cohort also gave me valuable experience working within a team agile/scrum enviornment!
         </p>
-        <img src="../public/Cert.jpg" alt="My certification" id="Cert"/>
+        <img src="/Cert.jpg" alt="My certification" id="Cert"/>
         </section>
         <section className="aboutMeBox">
         <h3>
