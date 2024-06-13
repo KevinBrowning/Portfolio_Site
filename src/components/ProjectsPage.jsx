@@ -4,13 +4,13 @@ const ProjectsPage = () => {
   const videos = [
     {
       title: "Clubhouse",
-      src: "../src/assets/ClubhouseAppPresentation.mp4",
+      src: "../public/ClubhouseAppPresentation.mp4",
       description:
         "Clubhouse is an interactive mobile application that utilizes React Native. It allows users to sign up for an account, navigate the application, create posts, edit profile details, and start conversations with other users. As project leader, I had a ton of fun working on this project and leading its direction!",
     },
     {
       title: "VHS Depot",
-      src: "../src/assets/2402-VHS-Depot.mp4",
+      src: "../public/2402-VHS-Depot.mp4",
       description:
         "VHS Depot is an all-in-one e-commerce web application centered around users being able to create an account, view inventory of movies, see movie details, and check out movies from the site. Looking for that retro BlockBuster feel? VHS Depot's got you covered!",
     },

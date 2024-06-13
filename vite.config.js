@@ -17,5 +17,4 @@ export default defineConfig({
       process.env.VITE_EMAILJS_USER_ID
     ),
   },
-  assetsInclude: ["src/assets/**"],
 });
