@@ -37,12 +37,15 @@ const AboutPage = () => {
         />
       </div>
       <section className="infoCard">
+        <section className="aboutMeBox">
         <h3>
           A Small Town Midwestener Looking To Make An Impact
         </h3>
         <p>
           Ever since I was young, I've known that I had a passion for solving problems and learning new things. Coming from a hardworking family, my mom and dad taught me that if you want something, you have to work for it. From the jump I've known that if you work hard for the things you want in life, you'll be able to succeed and chase your dreams! I started coding as a side interest in 2022 (Although this was not my first experience as I had taken some coding classes in my undergrad years) and fell in love with programming! Solving problems, creating algorythms, and designing applications make me so happy!
         </p>
+        </section>
+        <section className="aboutMeBox">
         <h3>
           Education
         </h3>
@@ -53,6 +56,8 @@ const AboutPage = () => {
           I have also completed certification in coding with The University of Michigan College of Engineering (I guess I have to say Go Blue too huh 😅) where I furthered my education by learning more comprehensive skills pertaining to full stack development. Getting to work alongside others during this cohort also gave me valuable experience working within a team agile/scrum enviornment!
         </p>
         <img src="../src/assets/Cert.jpg" alt="My certification" id="Cert"/>
+        </section>
+        <section className="aboutMeBox">
         <h3>
           Skills
         </h3>
@@ -76,12 +81,15 @@ const AboutPage = () => {
         <li className="list-item">Social Media Marketing</li>
         <li className="list-item">Canva</li>
         </ul>
+        </section>
+        <section className="aboutMeBox">
         <h3>
         Hobbies
         </h3>
         <p>
           In my spare time I love learning new things, golfing, bowling, hiking, and exercising! I started golfing and bowling about three years ago and now do them both quite often! I find they are very fun activities to do with friends and help stay in touch with others! I also love spending time with my friends and family as well. I am a huge sports fan who roots for all things Detroit/MSU.
         </p>
+        </section>
       </section>
 
     </>

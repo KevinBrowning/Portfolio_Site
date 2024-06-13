@@ -168,3 +168,26 @@ ul {
 p{
   font-weight: 500;
 }
+
+#inputForm{
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  padding: 50pt;
+  gap: 10pt;
+  border: solid black;
+  border-radius: 10pt;
+}
+
+#inputForm > input{
+  width: 200pt;
+  margin: auto;
+}
+
+.aboutMeBox{
+  border: solid black;
+  padding: 10pt;
+  margin: 10pt;
+  border-radius: 10pt;
+  background-color: #f0f0f0;
+}

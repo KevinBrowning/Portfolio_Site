@@ -43,7 +43,7 @@ const EmailForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id='inputForm'>
       <label htmlFor="name">Name:</label>
       <input
         type="text"
