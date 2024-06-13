@@ -24,12 +24,10 @@ const EmailForm = () => {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          reply_to: formData.email // Set the reply-to email to be the sender's email
+          reply_to: formData.email
         },
         process.env.VITE_EMAILJS_USER_ID
       );
-
-      console.log('Email sent:', response.status, response.text);
       alert('Email sent successfully!');
       setFormData({
         name: '',
@@ -37,7 +35,6 @@ const EmailForm = () => {
         message: ''
       });
     } catch (error) {
-      console.error('Failed to send email:', error);
       alert('Failed to send email. Please try again later.');
     }
   };
