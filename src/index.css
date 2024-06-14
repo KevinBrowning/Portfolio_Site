@@ -83,6 +83,17 @@ button:focus-visible {
 
   .infoCard {
     width: 80%;
+    max-width: 600px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-container {
+    flex-wrap: wrap;
   }
 }
 
@@ -97,7 +108,18 @@ button:focus-visible {
   }
 
   .infoCard {
-    width: 100%;
+    width: 90%;
+    max-width: 100%; /* Full width on smaller screens */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-container {
+    flex-wrap: wrap;
   }
 }
 
