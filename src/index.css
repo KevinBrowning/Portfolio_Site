@@ -12,7 +12,7 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,13 +27,14 @@ h1 {
   margin: auto;
   text-align: center;
   max-width: 90%;
+  margin-bottom: 10pt;
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1.2em; /* Default font size */
+  font-size: 1.2em;
   font-weight: 500;
   font-family: inherit;
   background-color: #ffffff;
@@ -99,6 +100,7 @@ img {
   justify-content: center;
   width: 100%;
   max-width: 100%;
+  margin-top: 10pt;
 }
 
 .carousel-btn {
@@ -208,4 +210,150 @@ textarea{
   flex-direction: column;
   margin: auto;
   margin-top: 10pt;
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+  }
+
+  .infoCard {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  img, .video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-container {
+    flex-wrap: wrap;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  .list-item {
+    width: 90%;
+  }
+
+  #Cert {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  #inputForm{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 0.4em 0.8em;
+  }
+
+  .infoCard {
+    width: 100%;
+    max-width: 92%;
+    margin: 0 auto;
+  }
+
+  img, .video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-container {
+    flex-wrap: wrap;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  .list-item {
+    width: 100%;
+  }
+
+  #Cert {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  #inputForm {
+    width: 100%;
+    max-width: 92%;
+    padding: 15px;
+  }
+
+  textarea {
+    width: 35vh;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 0.3em 0.6em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  #inputForm {
+    width: 100%;
+    max-width: 92%;
+    padding: 10px;
+  }
+
+  textarea {
+    width: 30vh;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 0.7em;
+    padding: 0.2em 0.5em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
+
+  #inputForm {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+  }
+
+  textarea {
+    width: 25vh;
+  }
 }

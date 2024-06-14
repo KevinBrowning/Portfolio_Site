@@ -18,7 +18,7 @@ const AboutPage = () => {
       setTimeout(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setShow(true); 
-      }, 2750); 
+      }, 3000); 
     }, 5000); 
 
     return () => clearInterval(intervalId);
@@ -27,7 +27,7 @@ const AboutPage = () => {
   return (
     <>
       <h1>About Me</h1>
-      <h2>I am a Fullstack Developer with a passion for creating systems and solving problems</h2>
+      <h2>A Fullstack Developer with a passion for creating systems & solving problems</h2>
       <div className="image-slideshow-container">
         <img
           id="imageArray"
