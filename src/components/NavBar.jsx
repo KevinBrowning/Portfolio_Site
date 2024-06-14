@@ -11,7 +11,7 @@ const NavBar = () => {
         </li>
         <li>
           <button>
-            <Link to="/about">About Me</Link>
+            <Link to="/about">About</Link>
           </button>
         </li>
         <li>
@@ -21,7 +21,7 @@ const NavBar = () => {
         </li>
         <li>
           <button>
-            <Link to="/contact">Contact Me</Link>
+            <Link to="/contact">Contact</Link>
           </button>
         </li>
       </ul>

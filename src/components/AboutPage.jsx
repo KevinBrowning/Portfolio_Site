@@ -61,7 +61,8 @@ const AboutPage = () => {
         <h3>
           Skills
         </h3>
-        <ul className="list-container">
+        <p>Here are a list of my profiecient skills! I've learned these skills through my education and have been able to apply all these to real world experience</p>
+        <ul>
         <li className="list-item">JavaScript</li>
         <li className="list-item">HTML</li>
         <li className="list-item">CSS</li>

@@ -67,7 +67,7 @@ const EmailForm = () => {
         name="message"
         value={formData.message}
         onChange={handleChange}
-        rows={4}
+        rows={10}
         required
       />
 
